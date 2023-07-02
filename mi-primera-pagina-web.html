@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head <meta charset="UTF-8">
     <title>Tu Marca Personal - Copywriter</title>
-</head>
     <style>
         @font-face {
         font-family: 'Playfair Display';
-         src: url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+        src: url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
         }
         body {
             font-family: 'Playfair Display', serif;
@@ -17,11 +16,18 @@
         }
 
         header {
-            background-color: rgba(238, 157, 7, 0.877);
+            background-color: #239623;
             color: #fff;
             padding: 20px;
             text-align: center;
         }
+
+        .miportafolio {
+        width: 150px; /* Cambia el valor según el tamaño deseado */
+        height: 150px; /* Esto permite que la altura se ajuste proporcionalmente */
+        border-radius: 150px;
+        }
+
 
         h1 {
             font-size: 32px;
@@ -29,6 +35,7 @@
         }
 
         h2 {
+            color: white;
             font-size: 18px;
             font-weight: normal;
         }
@@ -38,15 +45,21 @@
         }
 
         h3 {
-            background: #239623;
-            color: blanchedalmond;
+            background: rgba(238, 157, 7, 0.877);
+            color: white;
             font-size: 24px;
             margin-bottom: 20px;
+        }
+        h4 {
+            color: white;
+            font-size: 18px;
+            font-weight: normal;
         }
 
         p {
             line-height: 1.5;
             margin-bottom: 15px;
+            text-align: justify;
         }
 
         ul {
@@ -72,14 +85,41 @@
 </head>
 <body>
     <header>
-        <h1>Impulsa tu mensaje con palabras poderosas</h1>
-        <h2>Copywriting persuasivo para hacer crecer tu negocio</h2>
+        <img class="miportafolio" src="https://images.unsplash.com/photo-1618477388954-7852f32655ec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80" alt="Portafolio">
+        <h1>Impulsa tu negocio con experiencias visuales cautivadoras</h1>
+        <h2>Cautivando con cada línea de código y palabra escrita.</h2>
     </header>
+
+    <section>
+        <h3>Bienvenido a mi portafolio</h3>
+        <p>Luis Miguel González Ardila se describe a sí mismo como, un apasionado por la programación y la creación de experiencias digitales cautivadoras. Mi objetivo es adentrarme en el mundo del desarrollo frontend y contribuir al éxito de los proyectos de tu empresa en línea.</p>
+    </section>
 
     <section id="about">
         <h3>Acerca de mí</h3>
-        <p>Hola, soy [Tu nombre]. Con más de [X] años de experiencia en la redacción persuasiva, he trabajado con clientes de diversos sectores, desde pequeñas empresas hasta grandes corporaciones.</p>
-        <p>He ayudado a mis clientes a aumentar sus conversiones en un [X]% y mis textos han sido publicados en importantes medios de comunicación. Cuento con certificaciones en copywriting y marketing digital.</p>
+        <p>Aunque es nuevo en el campo del desarrollo web, su entusiasmo y dedicación lo impulsan a aprender rápidamente y adquirir nuevas habilidades en HTML, CSS y javascipt. Ha tenido una formación con los cursos y herramientas de Platzi, esto le ha proporcionado habilidades sobre una sólida base técnica y una mentalidad analítica para abordar los desafíos de la programación.</p>
+        <p>Pero no solo se trata de la tecnología, Junto a su pasión por combinar la belleza del diseño con el poder persuasivo de las palabras ha ayudado a clientes a aumentar sus conversiones en un [X]% y sus textos han sido publicados en importantes medios de comunicación. Cuento con certificaciones en HTML, CSS, javascript, copywriting y marketing digital.</p>
+    </section>
+
+<section id="skills">
+        <h3>Habilidades</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>javascript</li>
+            <li>SEO</li>
+            <li>Copywriting</li>
+        </ul>
+    </section>
+
+    <section id="portfolio">
+        <h3>Portafolio</h3>
+        <p>Muestras de mi trabajo:</p>
+        <ul>
+            <li>Anuncio persuasivo para una campaña de lanzamiento de producto</li>
+            <li>Página de inicio optimizada para SEO con resultados medibles</li>
+            <li>Artículos de blog con alto compromiso y compartidos en redes sociales</li>
+        </ul>
     </section>
 
     <section id="services">
@@ -91,16 +131,6 @@
             <li>Copy para publicaciones de blog y redes sociales</li>
         </ul>
         <p>Creo mensajes convincentes que capturan la atención del público objetivo y generan resultados. Mi enfoque estratégico se basa en comprender a fondo tu audiencia y tus objetivos de negocio.</p>
-    </section>
-
-    <section id="portfolio">
-        <h3>Portafolio</h3>
-        <p>Muestras de mi trabajo:</p>
-        <ul>
-            <li>Anuncio persuasivo para una campaña de lanzamiento de producto</li>
-            <li>Página de inicio optimizada para SEO con resultados medibles</li>
-            <li>Artículos de blog con alto compromiso y compartidos en redes sociales</li>
-        </ul>
     </section>
 
     <section id="testimonials">
